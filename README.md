@@ -101,11 +101,11 @@
 
                  ## Key insights 
 
-        |ID City |growth probability |total revenue |variation mean |volatility |score |
-    |-------------:|----------------:|-------------:|--------------:|------------:|-----:|
-    |   1(Fortaleza) |  1     |        0.857188 |         0.81 |     0.408  | 0.86 |
-    |   2 |  0.625 |  0.317  |         1        |     0.007 | 0.546 |
-    |   9 |  0.875 |  0.143 |         0.237299 |     0.887   | 0.529 |
+| ID City | Growth Probability | Total Revenue | Variation Mean | Volatility | Score |
+|----------|----------|----------|----------|----------|----------|
+| 1 (Fortaleza) | 1.000 | 0.857 | 0.810 | 0.408 | 0.860 |
+| 2 | 0.625 | 0.317 | 1.000 | 0.007 | 0.546 |
+| 9 | 0.875 | 0.143 | 0.237 | 0.887 | 0.529 |
 
     ° Agressive city score: city 7 (Fortaleza) achieved a score of 86, being the best to invest in an agressive campaign. 
 
