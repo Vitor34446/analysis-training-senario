@@ -120,19 +120,19 @@
 
     ° The Categorie 1 represents 61% of the frequency, and the Category 2 represents 39%, indicating slightly better performance for Category 1.
 
-        |ID Product |CV Recept |CV Unitary Price |CV quant |score |
-    |-------------:|--------------:|---------------------:|-----------------:|---------:|
-    |  7(ball) |  1        |  1        |         0.967 | 0.99 |
-    | 13 |  0.906 |  0.935 |         0.811 | 0.886 |
-    | 16 |  0.639 |  0.425 |         1        | 0.683 |
+| ID Product | CV Recept | CV Unitary Price | CV Quant | Score |
+|------------|-----------|------------------|----------|-------|
+| 7 (Ball) | 1.000 | 1.000 | 0.967 | 0.990 |
+| 13 | 0.906 | 0.935 | 0.811 | 0.886 |
+| 16 | 0.639 | 0.425 | 1.000 | 0.683 |
 
     ° Conservative product score: product 7 and product 13 performed very well. Product 13 is stable and popular. 
 
-        |ID_Cidade |CV_Receitac |CV_Preco_Unitarioc |CV_Quantidadec |score |
-    |------------:|--------------:|---------------------:|-----------------:|---------:|
-    |  8(Brasilia) |      1        |             0.924 |         0.444 | 0.810 |
-    |  4 |      0.608 |             0.905 |         0.702 | 0.725 |
-    |  1 |      0.556 |             1        |         0.495 | 0.671 |
+| ID City | CV Revenue | CV Unitary Price | CV Quantity | Score |
+|----------|----------|----------|----------|----------|
+| 8 (Brasília) | 1.000 | 0.924 | 0.444 | 0.810 |
+| 4 | 0.608 | 0.905 | 0.702 | 0.725 |
+| 1 | 0.556 | 1.000 | 0.495 | 0.671 |
 
     ° Conservative city score: city 8 (Brasilia) was the most stable.
 
