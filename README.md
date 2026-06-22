@@ -109,11 +109,12 @@
 
     ° Agressive city score: city 7 (Fortaleza) achieved a score of 86, being the best to invest in an agressive campaign. 
 
-        |ID City |growth probability |total revenue |variation mean |volatility |score |
-    |-------------:|---------------:|----------------:|------------:|---------------:|-------:|
-    |      13(window) |  1        |  1        |         1        |       0.537 | 0.953 |
-    |      6 |  0.857 |  0.495 |         0.825 |       0.642 | 0.72 |
-    |      12 |  0.714 |  0.682 |         0.673 |       0.478 | 0.673 |
+| ID City | Growth Probability | Total Revenue | Variation Mean | Volatility | Score |
+|----------|----------|----------|----------|----------|----------|
+| 13 (Window) | 1.000 | 1.000 | 1.000 | 0.537 | 0.953 |
+| 6 | 0.857 | 0.495 | 0.825 | 0.642 | 0.720 |
+| 12 | 0.714 | 0.682 | 0.673 | 0.478 | 0.673 |
+
 
     ° Agressive product score: product 13 (window) achieved a score of 95, showing a strong growth potencial. 
 
