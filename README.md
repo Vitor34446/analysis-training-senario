@@ -1,8 +1,8 @@
-                ## Data Analisis Training
+              ## Data Analisis Training
 
     A project dedicated to recriate a real sales cenario, with some simplifications.
 
-                ## Structure of the project
+              ## Structure of the project
 
     CSV Files
         ↓
@@ -29,14 +29,14 @@
     ° No cost columns.
     ° No missing values.
 
-                ## Business questions
+              ## Business questions
 
     ° Identify the most sold product. 
     ° Identify the city with the highest sales frequency.
     ° Create a score to determinate the best product or city for investiment.
     ° Analize the MoM probability of growth.
 
-                ## Dataset 
+              ## Dataset 
 
     ° It contains a total of 10 csv tables.
     ° Products. 
@@ -47,7 +47,7 @@
     ° Other tables (ranking and top3) were created by intersecting tables using 
     Pandas dictionaries.
 
-                ## Technologies used 
+            ## Technologies used 
 
     ° Python.
     ° SQL.
@@ -57,7 +57,7 @@
     ° Seaborn.
     ° Excel.
 
-                ## Data Cleaning 
+              ## Data Cleaning 
 
         The following preprocessing steps were applied:
     
@@ -74,7 +74,7 @@
 
     ° IQR was used for outlier filtering. 
 
-                ## Analisys performed 
+           ## Analisys performed 
 
     ° Detection of top investment opportunities.
     ° Product performance ranking.
@@ -82,7 +82,7 @@
     ° Cross-analysis between cities and products.
     ° Trend analysis over time. 
 
-                ## Methodology
+              ## Methodology
 
     ° Data cleaning.
     ° Outlier treatment.
