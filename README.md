@@ -4,13 +4,13 @@
 
   ## Structure of the project
 
-  CSV Files
+  CSV Files  
         ↓
-    Data Cleaning
+    Data Cleaning  
         ↓
-    Missing Values Handling
+    Missing Values Handling  
         ↓
-    Outlier Removal (IQR)
+    Outlier Removal (IQR)  
         ↓
     CV Calculation
         ↓
