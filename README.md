@@ -134,6 +134,6 @@
 | 4 | 0.608 | 0.905 | 0.702 | 0.725 |
 | 1 | 0.556 | 1.000 | 0.495 | 0.671 |
 
-    ° Conservative city score: city 8 (Brasilia) was the most stable.
+° Conservative city score: city 8 (Brasilia) was the most stable.
 
-    ° The top 3 products performed better than the top 3 cities across all scoring systems, suggesting that investing in products is safer and potentially more profitable.
+° The top 3 products performed better than the top 3 cities across all scoring systems, suggesting that investing in products is safer and potentially more profitable.
