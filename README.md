@@ -1,10 +1,10 @@
   # Data Analisis Training
 
-    A project dedicated to recriate a real sales cenario, with some simplifications.
+  A project dedicated to recriate a real sales cenario, with some simplifications.
 
   ## Structure of the project
 
-    CSV Files
+  CSV Files
         ↓
     Data Cleaning
         ↓
@@ -24,21 +24,21 @@
 
   ## Project Limitations
 
-    ° Synthetic values.
+  ° Synthetic values.
     ° No promotions or holiday included.
     ° No cost columns.
     ° No missing values.
 
   ## Business questions
 
-    ° Identify the most sold product. 
+  ° Identify the most sold product. 
     ° Identify the city with the highest sales frequency.
     ° Create a score to determinate the best product or city for investiment.
     ° Analize the MoM probability of growth.
 
   ## Dataset 
 
-    ° It contains a total of 10 csv tables.
+  ° It contains a total of 10 csv tables.
     ° Products. 
     ° Category.
     ° Clients.
@@ -49,7 +49,7 @@
 
   ## Technologies used 
 
-    ° Python.
+  ° Python.
     ° SQL.
     ° Pandas.
     ° Matplotlib.
@@ -59,24 +59,24 @@
 
   ## Data Cleaning 
 
-        The following preprocessing steps were applied:
+  The following preprocessing steps were applied:
     
-    ° Missing values handling.
+  ° Missing values handling.
 
-    ° Outlier removal.
+  ° Outlier removal.
 
-    ° Data type conversion.
+  ° Data type conversion.
 
-    ° Standardization of categorical variables.
+  ° Standardization of categorical variables.
 
-    ° I also used coeficient of variation (CV) to use the function fillna().Depending 
+  ° I also used coeficient of variation (CV) to use the function fillna().Depending 
     of the percentage of CV, I filled with median or mean.
 
-    ° IQR was used for outlier filtering. 
+  ° IQR was used for outlier filtering. 
 
   ## Analisys performed 
 
-    ° Detection of top investment opportunities.
+  ° Detection of top investment opportunities.
     ° Product performance ranking.
     ° City performance ranking. 
     ° Cross-analysis between cities and products.
@@ -84,7 +84,7 @@
 
   ## Methodology
 
-    ° Data cleaning.
+  ° Data cleaning.
     ° Outlier treatment.
     ° Feature engineering.
     ° Score creation.
@@ -93,11 +93,11 @@
 
   ## Scoring Sistem 
 
-    ° Conservative: Based on the coefficient of variation (CV), prioritizing products or cities with lower volatility.
+  ° Conservative: Based on the coefficient of variation (CV), prioritizing products or cities with lower volatility.
 
-    ° Agressive: Based on growth metrics, prioritizing products or cities with higher growth potential.
+  ° Agressive: Based on growth metrics, prioritizing products or cities with higher growth potential.
 
-    ° In the aggressive score, growth probability has the highest weight, followed by total revenue.
+  ° In the aggressive score, growth probability has the highest weight, followed by total revenue.
 
   # Key insights 
 
@@ -107,7 +107,7 @@
 | 2 | 0.625 | 0.317 | 1.000 | 0.007 | 0.546 |
 | 9 | 0.875 | 0.143 | 0.237 | 0.887 | 0.529 |
 
-    ° Agressive city score: city 7 (Fortaleza) achieved a score of 86, being the best to invest in an agressive campaign. 
+  ° Agressive city score: city 7 (Fortaleza) achieved a score of 86, being the best to invest in an agressive campaign. 
 
 | ID City | Growth Probability | Total Revenue | Variation Mean | Volatility | Score |
 |----------|----------|----------|----------|----------|----------|
@@ -116,9 +116,9 @@
 | 12 | 0.714 | 0.682 | 0.673 | 0.478 | 0.673 |
 
 
-    ° Agressive product score: product 13 (window) achieved a score of 95, showing a strong growth potencial. 
+  ° Agressive product score: product 13 (window) achieved a score of 95, showing a strong growth potencial. 
 
-    ° The Categorie 1 represents 61% of the frequency, and the Category 2 represents 39%, indicating slightly better performance for Category 1.
+  ° The Categorie 1 represents 61% of the frequency, and the Category 2 represents 39%, indicating slightly better performance for Category 1.
 
 | ID Product | CV Recept | CV Unitary Price | CV Quant | Score |
 |------------|-----------|------------------|----------|-------|
@@ -126,7 +126,7 @@
 | 13 | 0.906 | 0.935 | 0.811 | 0.886 |
 | 16 | 0.639 | 0.425 | 1.000 | 0.683 |
 
-    ° Conservative product score: product 7 and product 13 performed very well. Product 13 is stable and popular. 
+  ° Conservative product score: product 7 and product 13 performed very well. Product 13 is stable and popular. 
 
 | ID City | CV Revenue | CV Unitary Price | CV Quantity | Score |
 |----------|----------|----------|----------|----------|
